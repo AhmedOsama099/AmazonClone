@@ -1,3 +1,13 @@
+
+
+:root {
+    --color-131921:#131921;
+    --color-3b4149:#3b4149;
+    --color-febd69:#febd69;
+    --color-232f3e:#232f3e;
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +21,17 @@ body{
 a {
     text-decoration: none;
     display: inline-block;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+
+.gap-30{
+    gap: 30px;
 }
