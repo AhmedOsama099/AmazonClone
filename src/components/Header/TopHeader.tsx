@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 const TopHeader = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="py-3 header-container">
-      <Container fluid="sm">
+      <Container fluid="xxl">
         <Nav className="me-auto">
           <p className="text-white mb-0">
             Free Shipping Over $100 and Free Returns

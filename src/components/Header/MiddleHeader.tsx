@@ -8,13 +8,11 @@ import { BsSearch } from "react-icons/bs";
 const MiddleHeader = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="py-3 header-container">
-      <Container fluid="sm" className="pe-0">
+      <Container fluid="xxl" className="pe-0">
         <Row className="w-100 ">
           <Col md="2">
-            <Navbar.Brand href="#home">
-              <Link to="/" className="text-white header-brand">
-                Dev Corner
-              </Link>
+            <Navbar.Brand href="/" className="text-white header-brand">
+              Dev Corner
             </Navbar.Brand>
           </Col>
 

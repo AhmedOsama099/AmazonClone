@@ -1,0 +1,27 @@
+.footer-container{
+
+    .top, .middle, .bottom{
+        background-color: var(--color-232f3e);
+    }
+
+    .top{
+        .subscribe-button{
+            background-color: var(--color-232f3e) !important;
+            padding: 8px 17px;
+        }
+    }
+
+    .middle{
+        border-top: 1px solid rgba(255,255,255,0.1);
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .bottom{
+        border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+ 
+}

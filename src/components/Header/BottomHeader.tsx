@@ -10,7 +10,7 @@ const BottomHeader = () => {
       expand="lg"
       className="py-3 header-container bottom-header"
     >
-      <Container fluid="sm">
+      <Container fluid="xxl">
         <Row className="w-100">
           <Col md="12">
             <div className="menu-bottom d-flex align-items-center gap-30">
