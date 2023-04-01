@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const services = [
   {
