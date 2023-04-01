@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const smallContentSection1 = [
   {
+    id: 1,
     imageSource: "images/catbanner-01.jpg",
     h4Content: "BEST SALE",
     h5Content: "Laptops Max",
@@ -12,6 +13,7 @@ const smallContentSection1 = [
   },
 
   {
+    id: 2,
     imageSource: "images/catbanner-02.jpg",
     h4Content: "New Arrival.",
     h5Content: "Buy IPad AIR",
@@ -19,6 +21,7 @@ const smallContentSection1 = [
     pContent2: "$49.91/mo for 12 mo.*",
   },
   {
+    id: 3,
     imageSource: "images/catbanner-03.jpg",
     h4Content: "SUPER CHARGED FOR PRO5.",
     h5Content: "iPad S13+ Pro",
@@ -26,6 +29,7 @@ const smallContentSection1 = [
     pContent2: " $41.62/mo",
   },
   {
+    id: 4,
     imageSource: "images/catbanner-03.jpg",
     h4Content: "SUPER CHARGED FOR PRO5.",
     h5Content: "iPad S13+ Pro",
@@ -59,7 +63,7 @@ const Section1 = () => {
           <Col md="6">
             <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
               {smallContentSection1.map((ele) => (
-                <div className="small-banner position-relative">
+                <div key={ele.id} className="small-banner position-relative">
                   <img
                     src={ele.imageSource}
                     className="img-fluid rounded-3"
