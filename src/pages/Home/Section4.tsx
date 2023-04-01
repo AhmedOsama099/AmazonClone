@@ -37,7 +37,7 @@ const marqueeList = [
   },
 ];
 
-const Section2 = () => {
+const Section4 = () => {
   return (
     <section>
       <Container fluid="xxl" className="mqruee-wrapper py-5">
@@ -59,4 +59,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default Section4;
