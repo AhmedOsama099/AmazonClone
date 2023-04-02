@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
@@ -14,7 +13,7 @@ const cardsList = [
     buttonText: "Read More",
   },
   {
-    id: 1,
+    id: 2,
     imageSrc: "images/blog-1.jpg",
     date: "1 Apr, 2023",
     title: "A Beautiful Sunday Morning Renaissance",
@@ -22,7 +21,7 @@ const cardsList = [
     buttonText: "Read More",
   },
   {
-    id: 1,
+    id: 3,
     imageSrc: "images/blog-1.jpg",
     date: "1 Apr, 2023",
     title: "A Beautiful Sunday Morning Renaissance",
@@ -30,7 +29,7 @@ const cardsList = [
     buttonText: "Read More",
   },
   {
-    id: 1,
+    id: 4,
     imageSrc: "images/blog-1.jpg",
     date: "1 Apr, 2023",
     title: "A Beautiful Sunday Morning Renaissance",
@@ -42,7 +41,7 @@ const cardsList = [
 const Section5 = () => {
   return (
     <section>
-      <Container fluid="xxl" className="home-wrapper-5 blog-wrapper py-5">
+      <Container fluid="xxl" className="home-wrapper-5 py-5">
         <Row>
           <Col md="12">
             <h3 className="heading">Our Latest Blogs</h3>
