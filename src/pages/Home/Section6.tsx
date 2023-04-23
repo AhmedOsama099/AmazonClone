@@ -2,11 +2,13 @@ import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import StarRatingComponent from "react-star-rating-component";
+import { Link } from "react-router-dom";
 
 const cardsList = [
   {
     id: 1,
-    imageSrc: "images/watch.jpg",
+    imageSrc1: "images/watch.jpg",
+    imageSrc2: "images/watch-1.jpg",
     bradn: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
@@ -16,7 +18,8 @@ const cardsList = [
   },
   {
     id: 2,
-    imageSrc: "images/watch.jpg",
+    imageSrc1: "images/watch.jpg",
+    imageSrc2: "images/watch-1.jpg",
     bradn: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
@@ -26,7 +29,8 @@ const cardsList = [
   },
   {
     id: 3,
-    imageSrc: "images/watch.jpg",
+    imageSrc1: "images/watch.jpg",
+    imageSrc2: "images/watch-1.jpg",
     bradn: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
@@ -36,7 +40,8 @@ const cardsList = [
   },
   {
     id: 4,
-    imageSrc: "images/watch.jpg",
+    imageSrc1: "images/watch.jpg",
+    imageSrc2: "images/watch-1.jpg",
     bradn: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
@@ -44,16 +49,17 @@ const cardsList = [
     startsValue: 3,
     isStarsEditable: false,
   },
-  {
-    id: 5,
-    imageSrc: "images/watch.jpg",
-    bradn: "Havels",
-    title: "Kids Headphones bulk 10 pack multi colored for students",
-    price: "$100.00",
-    starsName: "name1",
-    startsValue: 3,
-    isStarsEditable: false,
-  },
+  // {
+  //   id: 5,
+  //   imageSrc1: "images/watch.jpg",
+  //   imageSrc2: "images/watch-1.jpg",
+  //   bradn: "Havels",
+  //   title: "Kids Headphones bulk 10 pack multi colored for students",
+  //   price: "$100.00",
+  //   starsName: "name1",
+  //   startsValue: 3,
+  //   isStarsEditable: false,
+  // },
 ];
 
 const Section6 = () => {
@@ -66,23 +72,46 @@ const Section6 = () => {
           </Col>
           {cardsList.map((ele) => (
             <Col key={ele.id} md="3">
-              <Card>
-                <Card.Img variant="top" src={ele.imageSrc} />
-                <Card.Body>
-                  <p className="brand">{ele.bradn}</p>
-                  <Card.Title className="title">{ele.title}</Card.Title>
-                  <div className="stars">
-                    <StarRatingComponent
-                      name={ele.starsName}
-                      starCount={5}
-                      value={ele.startsValue}
-                      // onStarClick={this.onStarClick.bind(this)}
-                      editing={false}
-                    />
+              <Link to="#">
+                <Card className="position-relative prodcut-card">
+                  <div className="wishlist-icon position-absolute">
+                    <Link to="#">
+                      <img src="images/wish.svg" alt="wishlist" />
+                    </Link>
                   </div>
-                  <Card.Text className="price">{ele.price}</Card.Text>
-                </Card.Body>
-              </Card>
+                  <div className="product-image">
+                    <Card.Img variant="top" src={ele.imageSrc1} />
+                    <Card.Img variant="top" src={ele.imageSrc2} />
+                  </div>
+                  <Card.Body>
+                    <p className="brand">{ele.bradn}</p>
+                    <Card.Title className="title">{ele.title}</Card.Title>
+                    <div className="stars">
+                      <StarRatingComponent
+                        name={ele.starsName}
+                        starCount={5}
+                        value={ele.startsValue}
+                        // onStarClick={this.onStarClick.bind(this)}
+                        editing={false}
+                      />
+                    </div>
+                    <Card.Text className="price">{ele.price}</Card.Text>
+                  </Card.Body>
+                  <div className="action-bar position-absolute">
+                    <div className="d-flex flex-column  gap-15">
+                      <Link to="#">
+                        <img src="images/prodcompare.svg" alt="compare" />
+                      </Link>
+                      <Link to="#">
+                        <img src="images/view.svg" alt="view" />
+                      </Link>
+                      <Link to="#">
+                        <img src="images/add-cart.svg" alt="addcart" />
+                      </Link>
+                    </div>
+                  </div>
+                </Card>
+              </Link>
             </Col>
           ))}
         </Row>

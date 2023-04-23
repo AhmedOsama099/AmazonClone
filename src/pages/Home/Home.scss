@@ -153,24 +153,80 @@
 }
 
 .home-wrapper-6{
-    
-    .brand{
-        color: var(--color-bf4800);
-        font-size: 13px;
-    }
-    
-    .title{
-        font-size: 15px;
-        color: var(--color-1c1c1b);
-    }
-    .price{
-        font-size: 16px;
-        color: var(--color-1c1c1b);
-    }
-    .stars{
-        .dv-star-rating{
-            font-size: 25px;
+
+    .prodcut-card{
+        overflow: hidden;
+
+        &:hover .action-bar{
+            right: 15px;
+        }
+        
+        &:hover .product-image > img:nth-child(1){
+            display: none;
+
+        }
+
+        &:hover .product-image > img:nth-child(2){
+            display: block;
+       
+            }
+
+            
+        .product-image{
+            height: 270px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+          img{
+            
+            object-fit: contain;
+
+            &:last-child{
+                display: none;
+                height: 100%;
+                width: 50%;
+                }
         }
     }
+
+
+
+
+
+    
+        .wishlist-icon{
+            top: 2%;
+            right: 15px;
+    
+        }
+        
+        .brand{
+            color: var(--color-bf4800);
+            font-size: 13px;
+        }
+        
+        .title{
+            font-size: 15px;
+            color: var(--color-1c1c1b);
+        }
+        .price{
+            font-size: 16px;
+            color: var(--color-1c1c1b);
+        }
+        .stars{
+            .dv-star-rating{
+                font-size: 25px;
+            }
+        }
+        .action-bar{
+            top: 10%;
+            right: -20px;
+            transition: 0.3s;
+        }
+
+    }
+
+ 
 
 }
