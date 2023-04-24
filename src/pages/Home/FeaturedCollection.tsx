@@ -62,10 +62,13 @@ const cardsList = [
   // },
 ];
 
-const Section6 = () => {
+const FeaturedCollection = () => {
   return (
     <section>
-      <Container fluid="xxl" className="home-wrapper-6  py-5">
+      <Container
+        fluid="xxl"
+        className="featured-collection-wrapper home-wrapper-2 py-5"
+      >
         <Row>
           <Col md="12">
             <h3 className="heading">Featured Collection</h3>
@@ -120,4 +123,4 @@ const Section6 = () => {
   );
 };
 
-export default Section6;
+export default FeaturedCollection;

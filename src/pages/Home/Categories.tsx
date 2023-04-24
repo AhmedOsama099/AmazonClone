@@ -52,10 +52,10 @@ const categories = [
   },
 ];
 
-const Section2 = () => {
+const Categories = () => {
   return (
     <section>
-      <Container fluid="xxl" className="home-wrapper-3 py-5">
+      <Container fluid="xxl" className="categories-wrapper home-wrapper-2 py-5">
         <Row>
           <Col md="12">
             <div>
@@ -78,4 +78,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default Categories;

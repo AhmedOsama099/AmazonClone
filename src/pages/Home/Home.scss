@@ -1,4 +1,4 @@
-.home-wrapper-1{
+.main-banner-wrapper{
 
 
     .main-banner-content, .small-banner-content{
@@ -26,7 +26,6 @@
         }
 
     }
-    
     
     .main-banner-content{
         top: 15%;
@@ -81,12 +80,12 @@
 
 }
 
-.home-wrapper-2, .home-wrapper-3, .home-wrapper-5, .home-wrapper-6, .home-wrapper-7, .home-wrapper-8, .home-wrapper-9{
+.home-wrapper-2{
     background-color: var(--color-f5f5f7);
 }
 
 
-.home-wrapper-3{
+.categories-wrapper{
 
     .categories{
         background-color: white;
@@ -131,10 +130,11 @@
         background-color: white;
         box-shadow: 0 0 10px #0000001a;
         padding: 15px;
+        border-radius: 10px;
     }
 }
 
-.home-wrapper-5{
+.latest-blogs-wrapper{
 
         .date{
             font-size: 13px;
@@ -152,7 +152,7 @@
 
 }
 
-.home-wrapper-6{
+.featured-collection-wrapper{
 
     .prodcut-card{
         overflow: hidden;
@@ -220,7 +220,7 @@
 
 }
 
-.home-wrapper-7, .home-wrapper-6{
+.offers-products-wrapper, .featured-collection-wrapper{
     .brand{
         color: var(--color-bf4800);
         font-size: 13px;
@@ -237,7 +237,7 @@
 }
 
 
-.home-wrapper-9{
+.offers-products-wrapper{
     .famous-content{
         top: 10%;
         left: 5%;

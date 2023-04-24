@@ -38,13 +38,13 @@ const smallContentSection1 = [
   },
 ];
 
-const Section1 = () => {
+const MainBanner = () => {
   return (
     <section>
-      <Container fluid="xxl" className="home-wrapper-1 py-5">
+      <Container fluid="xxl" className="main-banner-wrapper py-5">
         <Row>
           <Col md="6">
-            <div className="main-banner position-relative ">
+            <div className="main-banner position-relative">
               <img
                 src="images/main-banner-1.jpg"
                 className="img-fluid rounded-3"
@@ -86,4 +86,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default MainBanner;

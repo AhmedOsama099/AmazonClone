@@ -1,13 +1,13 @@
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import StarRatingComponent from "react-star-rating-component";
-import ProgressBar from "react-bootstrap/ProgressBar";
-import { Link } from "react-router-dom";
 
-const Section7 = () => (
+const OffersProducts = () => (
   <section>
-    <Container fluid="xxl" className="special-wrapper  py-5 home-wrapper-9">
+    <Container
+      fluid="xxl"
+      className="offers-products-wrapper home-wrapper-2 py-5 "
+    >
       <Row>
         <Col md="3">
           <Card bg="dark">
@@ -78,4 +78,4 @@ const Section7 = () => (
   </section>
 );
 
-export default Section7;
+export default OffersProducts;

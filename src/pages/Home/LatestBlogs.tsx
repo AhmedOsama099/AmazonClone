@@ -38,10 +38,13 @@ const cardsList = [
   },
 ];
 
-const Section5 = () => {
+const LatestBlogs = () => {
   return (
     <section>
-      <Container fluid="xxl" className="home-wrapper-5 py-5">
+      <Container
+        fluid="xxl"
+        className="latest-blogs-wrapper home-wrapper-5 py-5"
+      >
         <Row>
           <Col md="12">
             <h3 className="heading">Our Latest Blogs</h3>
@@ -67,4 +70,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default LatestBlogs;

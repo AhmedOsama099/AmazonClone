@@ -34,7 +34,7 @@ const services = [
   },
 ];
 
-const Section2 = () => {
+const Services = () => {
   return (
     <section>
       <Container fluid="xxl" className="home-wrapper-2 py-5">
@@ -58,4 +58,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default Services;

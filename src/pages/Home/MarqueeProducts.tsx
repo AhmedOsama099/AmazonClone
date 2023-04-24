@@ -37,10 +37,10 @@ const marqueeList = [
   },
 ];
 
-const Section4 = () => {
+const MarqueeProducts = () => {
   return (
     <section>
-      <Container fluid="xxl" className="mqruee-wrapper py-5">
+      <Container fluid="xxl" className="mqruee-wrapper home-wrapper-2 py-5">
         <Row>
           <Col md="12">
             <div className="marquee-inner-wrapper card-wrapper">
@@ -59,4 +59,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default MarqueeProducts;
