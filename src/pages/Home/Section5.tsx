@@ -49,8 +49,8 @@ const Section5 = () => {
           {cardsList.map((ele) => (
             <Col key={ele.id} md="3">
               <Card>
-                <Card.Img variant="top" src={ele.imageSrc} />
                 <Card.Body>
+                  <Card.Img variant="top" src={ele.imageSrc} />
                   <p className="date">{ele.date}</p>
                   <Card.Title>{ele.title}</Card.Title>
                   <Card.Text>{ele.body}</Card.Text>

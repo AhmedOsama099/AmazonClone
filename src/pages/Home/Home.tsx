@@ -7,6 +7,7 @@ import Section5 from "./Section5";
 import Section6 from "./Section6";
 import Section7 from "./Section7";
 import Section8 from "./Section8";
+import Section9 from "./Section9";
 
 const Home = () => {
   return (
@@ -16,10 +17,11 @@ const Home = () => {
       <Section3 />
       <Section6 />
       <Section8 />
+      <Section9 />
       <Section4 />
       <Section5 />
       <Section7 />
-      {/* 2:58 */}
+      {/* 3:37 ==> Store Page*/}
     </>
   );
 };

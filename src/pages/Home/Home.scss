@@ -81,7 +81,7 @@
 
 }
 
-.home-wrapper-2, .home-wrapper-3, .home-wrapper-5, .home-wrapper-6, .home-wrapper-7, .home-wrapper-8{
+.home-wrapper-2, .home-wrapper-3, .home-wrapper-5, .home-wrapper-6, .home-wrapper-7, .home-wrapper-8, .home-wrapper-9{
     background-color: var(--color-f5f5f7);
 }
 
@@ -232,6 +232,40 @@
     .stars{
         .dv-star-rating{
             font-size: 25px;
+        }
+    }
+}
+
+
+.home-wrapper-9{
+    .famous-content{
+        top: 10%;
+        left: 5%;
+
+        img{
+            border-radius: 10px;
+        }
+
+        h5{
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 400;
+            margin-bottom: 7px;
+            text-transform: uppercase;
+        }
+
+        h6{
+            font-size: 24px;
+            line-height: 38px;
+            font-weight: 500;
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 100;
+
+
         }
     }
 }

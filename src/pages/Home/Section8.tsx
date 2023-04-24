@@ -13,12 +13,12 @@ const Section7 = () => (
           <h3 className="heading">Our Popular Products</h3>
         </Col>
         <Row>
-          <Col md="2">
+          {/* <Col md="2">
             <Card></Card>
           </Col>
           <Col md="2">
             <Card></Card>
-          </Col>
+          </Col> */}
         </Row>
       </Row>
     </Container>
