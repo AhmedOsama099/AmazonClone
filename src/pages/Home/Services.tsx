@@ -36,8 +36,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section>
-      <Container fluid="xxl" className="home-wrapper-2 py-5">
+    <section className="home-wrapper-2 py-5">
+      <Container fluid="xxl">
         <Row>
           <Col md="12">
             <div className="d-flex justify-content-between align-items-center">

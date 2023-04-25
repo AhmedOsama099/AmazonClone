@@ -40,11 +40,8 @@ const cardsList = [
 
 const LatestBlogs = () => {
   return (
-    <section>
-      <Container
-        fluid="xxl"
-        className="latest-blogs-wrapper home-wrapper-5 py-5"
-      >
+    <section className="latest-blogs-wrapper home-wrapper-2 py-5">
+      <Container fluid="xxl">
         <Row>
           <Col md="12">
             <h3 className="heading">Our Latest Blogs</h3>

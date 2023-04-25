@@ -3,11 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
 const OffersProducts = () => (
-  <section>
-    <Container
-      fluid="xxl"
-      className="offers-products-wrapper home-wrapper-2 py-5 "
-    >
+  <section className="offers-products-wrapper home-wrapper-2 py-5">
+    <Container fluid="xxl">
       <Row>
         <Col md="3">
           <Card bg="dark">

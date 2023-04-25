@@ -39,8 +39,8 @@ const marqueeList = [
 
 const MarqueeProducts = () => {
   return (
-    <section>
-      <Container fluid="xxl" className="mqruee-wrapper home-wrapper-2 py-5">
+    <section className="mqruee-wrapper home-wrapper-2 py-5">
+      <Container fluid="xxl">
         <Row>
           <Col md="12">
             <div className="marquee-inner-wrapper card-wrapper">

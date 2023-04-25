@@ -9,7 +9,7 @@ const cardsList = [
     id: 1,
     imageSrc1: "images/watch.jpg",
     imageSrc2: "images/watch-1.jpg",
-    bradn: "Havels",
+    brand: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
     starsName: "name1",
@@ -20,7 +20,7 @@ const cardsList = [
     id: 2,
     imageSrc1: "images/watch.jpg",
     imageSrc2: "images/watch-1.jpg",
-    bradn: "Havels",
+    brand: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
     starsName: "name1",
@@ -31,7 +31,7 @@ const cardsList = [
     id: 3,
     imageSrc1: "images/watch.jpg",
     imageSrc2: "images/watch-1.jpg",
-    bradn: "Havels",
+    brand: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
     starsName: "name1",
@@ -42,7 +42,7 @@ const cardsList = [
     id: 4,
     imageSrc1: "images/watch.jpg",
     imageSrc2: "images/watch-1.jpg",
-    bradn: "Havels",
+    brand: "Havels",
     title: "Kids Headphones bulk 10 pack multi colored for students",
     price: "$100.00",
     starsName: "name1",
@@ -53,7 +53,7 @@ const cardsList = [
   //   id: 5,
   //   imageSrc1: "images/watch.jpg",
   //   imageSrc2: "images/watch-1.jpg",
-  //   bradn: "Havels",
+  //   brand: "Havels",
   //   title: "Kids Headphones bulk 10 pack multi colored for students",
   //   price: "$100.00",
   //   starsName: "name1",
@@ -64,11 +64,8 @@ const cardsList = [
 
 const FeaturedCollection = () => {
   return (
-    <section>
-      <Container
-        fluid="xxl"
-        className="featured-collection-wrapper home-wrapper-2 py-5"
-      >
+    <section className="featured-collection-wrapper home-wrapper-2 py-5">
+      <Container fluid="xxl">
         <Row>
           <Col md="12">
             <h3 className="heading">Featured Collection</h3>
@@ -87,7 +84,7 @@ const FeaturedCollection = () => {
                     <Card.Img variant="top" src={ele.imageSrc2} />
                   </div>
                   <Card.Body>
-                    <p className="brand">{ele.bradn}</p>
+                    <p className="brand">{ele.brand}</p>
                     <Card.Title className="title">{ele.title}</Card.Title>
                     <div className="stars">
                       <StarRatingComponent

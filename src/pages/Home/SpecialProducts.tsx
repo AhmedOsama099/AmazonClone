@@ -6,8 +6,8 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 import { Link } from "react-router-dom";
 
 const SpecialProducts = () => (
-  <section>
-    <Container fluid="xxl" className="home-wrapper-2 py-5">
+  <section className="home-wrapper-2 py-5">
+    <Container fluid="xxl">
       <Row>
         <Col md="12">
           <h3 className="heading">Special Products</h3>

@@ -54,8 +54,8 @@ const categories = [
 
 const Categories = () => {
   return (
-    <section>
-      <Container fluid="xxl" className="categories-wrapper home-wrapper-2 py-5">
+    <section className="categories-wrapper home-wrapper-2 py-5">
+      <Container fluid="xxl">
         <Row>
           <Col md="12">
             <div>
