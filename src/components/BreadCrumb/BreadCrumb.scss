@@ -1,0 +1,10 @@
+.breadcrumb-wrapper{
+    color: var(--text-dark) !important;
+    ol{
+        margin-bottom: 0 !important;
+    }
+    a{
+        color: var(--text-dark);
+        text-decoration: none;
+    }
+}

@@ -6,7 +6,6 @@ import MarqueeProducts from "./MarqueeProducts";
 import LatestBlogs from "./LatestBlogs";
 import FeaturedCollection from "./FeaturedCollection";
 import SpecialProducts from "./SpecialProducts";
-
 import OffersProducts from "./OffersProducts";
 
 const Home = () => {
@@ -20,7 +19,6 @@ const Home = () => {
       <SpecialProducts />
       <MarqueeProducts />
       <LatestBlogs />
-      {/* 3:37 ==> Store Page*/}
     </>
   );
 };
